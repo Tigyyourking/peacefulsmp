@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PeaceFulSMP — Trap, Farm, Play!</title>
+  <meta name="description" content="PeaceFulSMP — a friendly survival SMP for Java and Eaglercraft. Land claims, a full economy with ranks, clans, spawners, OneBlock and more. 100% earned in-game, no pay-to-win." />
+  <meta name="theme-color" content="#0b1512" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/icon.png" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="PeaceFulSMP — Trap, Farm, Play!" />
+  <meta property="og:description" content="A friendly survival SMP for Java and Eaglercraft. Land claims, economy, ranks, clans, spawners, OneBlock and more." />
+  <meta property="og:image" content="assets/banner.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <img src="assets/icon.png" alt="PeaceFulSMP icon" width="40" height="40" />
+      <span>PeaceFul<em>SMP</em></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#play">Play</a>
+      <a href="#features">Features</a>
+      <a href="#vote">Vote</a>
+      <a class="nav-cta" href="#play">Join Now</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="pill" id="status-pill">
+          <span class="dot" id="status-dot"></span>
+          <span id="status-text">Checking status…</span>
+        </span>
+        <h1>PeaceFul<em>SMP</em></h1>
+        <p class="tagline">Trap, Farm, Play!</p>
+        <p class="lead">
+          A friendly survival SMP for <strong>Java</strong> and <strong>Eaglercraft</strong>
+          (play in your browser). Land claims, a full economy with ranks, clans, mob
+          spawners, OneBlock &amp; more — <strong>100% earned in-game, no pay-to-win</strong>.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#play">Play Now</a>
+          <a class="btn btn-ghost" href="https://topeaglerservers.com/vote/cb8254db" target="_blank" rel="noopener">Vote for Us</a>
+        </div>
+
+        <div class="ip-box" id="ip-box" role="button" tabindex="0" aria-label="Copy server IP">
+          <span class="ip-label">Server IP</span>
+          <code class="ip" id="server-ip">play.peacefulsmp.win</code>
+          <span class="ip-copy" id="copy-btn">Copy</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img src="assets/icon.png" alt="PeaceFulSMP" width="220" height="220" />
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <h2 class="section-title">What makes us different</h2>
+      <p class="section-sub">Everything below is earned by playing — no pay-to-win, ever.</p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>
+          </div>
+          <h3>Land Claims</h3>
+          <p>Protect your builds with GriefPrevention. Claim land, trust friends, and build without worry.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h4a1.5 1.5 0 010 3h-3a1.5 1.5 0 000 3h4"/></svg>
+          </div>
+          <h3>Economy &amp; Ranks</h3>
+          <p>Earn money, trade in shops, and climb the ranks — Copper, Iron, Gold, Diamond, Netherite &amp; God.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 4v6c0 4-3 7-7 8-4-1-7-4-7-8V7z"/><path d="M9.5 12l1.8 1.8L14.8 10"/></svg>
+          </div>
+          <h3>Clans</h3>
+          <p>Team up with friends, build a clan base, claim territory and dominate together.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h16v10H4z"/><path d="M8 8V6a2 2 0 012-2h4a2 2 0 012 2v2M9 13h6"/></svg>
+          </div>
+          <h3>Mob Spawners</h3>
+          <p>Buy, place and stack spawners to build powerful mob farms the DonutSMP way.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V6l6 4V6l6 4V6l4 3v11z"/><path d="M4 20h16"/></svg>
+          </div>
+          <h3>OneBlock</h3>
+          <p>A whole second game mode. Break the block, grow your island, and progress through phases.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4L7.5 17l.9-5L4.8 8.3l5-.7z"/></svg>
+          </div>
+          <h3>Custom Enchants</h3>
+          <p>Overpowered custom enchantments, auctions and rare gear to hunt for and trade.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg>
+          </div>
+          <h3>Vote Rewards</h3>
+          <p>Vote daily to earn shards, XP and streak bonuses — then spend them in the shop.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          </div>
+          <h3>Play in Browser</h3>
+          <p>No install needed. Jump in on Eaglercraft straight from your browser, on any device.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW TO JOIN -->
+    <section id="play" class="section">
+      <h2 class="section-title">How to join</h2>
+      <p class="section-sub">Two ways in — pick whichever suits you.</p>
+
+      <div class="join-grid">
+        <article class="card join-card">
+          <h3>Java Edition</h3>
+          <ol>
+            <li>Open Minecraft <strong>1.8 – latest</strong>.</li>
+            <li>Go to <strong>Multiplayer &rarr; Add Server</strong>.</li>
+            <li>Enter the address below and join.</li>
+          </ol>
+          <div class="ip-box small" data-copy="play.peacefulsmp.win">
+            <code class="ip">play.peacefulsmp.win</code>
+            <span class="ip-copy">Copy</span>
+          </div>
+        </article>
+
+        <article class="card join-card">
+          <h3>Eaglercraft (Browser)</h3>
+          <ol>
+            <li>No install required — open the web client.</li>
+            <li>Add the server address when prompted.</li>
+            <li>Join and start playing instantly.</li>
+          </ol>
+          <a class="btn btn-primary full" href="https://play.peacefulsmp.win" target="_blank" rel="noopener">Play in Browser</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- VOTE -->
+    <section id="vote" class="section vote">
+      <div class="vote-inner">
+        <h2>Support the server</h2>
+        <p>Voting is free, takes seconds, and rewards you with shards &amp; XP in-game. It also helps new players find us!</p>
+        <a class="btn btn-primary big" href="https://topeaglerservers.com/vote/cb8254db" target="_blank" rel="noopener">Vote on TopEaglerServers</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <img src="assets/icon.png" alt="" width="32" height="32" />
+      <span>PeaceFulSMP &mdash; Trap, Farm, Play!</span>
+    </div>
+    <p class="muted">Not affiliated with Mojang AB or Microsoft. Made by the community, for the community.</p>
+    <p class="muted">&copy; <span id="year"></span> PeaceFulSMP</p>
+  </footer>
+
+  <div class="toast" id="toast">Copied!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
