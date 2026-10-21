@@ -286,6 +286,13 @@ code, .ip { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, 
 .vote-inner h2 { font-size: clamp(1.6rem, 4vw, 2.3rem); margin: 0 0 10px; }
 .vote-inner p { color: var(--muted); max-width: 54ch; margin: 0 auto 26px; }
 
+/* STORE */
+.store .vote-inner {
+  background:
+    linear-gradient(140deg, rgba(43, 182, 163, 0.18), rgba(103, 226, 95, 0.10)),
+    var(--bg-2);
+}
+
 /* FOOTER */
 .footer {
   border-top: 1px solid var(--panel-border);
